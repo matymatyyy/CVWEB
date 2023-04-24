@@ -38,12 +38,16 @@
     
 }
 
+#boton1:hover{
+    color: red;
+}
+
 #descripcion{
     text-align: center;
 }
 
 #espacio{
-    
-    width: 900px;
+    visibility: hidden;
+    width: 500px;
     height: 100%;
 }
