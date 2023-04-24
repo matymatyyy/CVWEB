@@ -7,16 +7,19 @@
 
 #titulo{
     text-align: center;
+    display: flex;
     font-size: xx-large;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-#caja{
- 
-}
+
 
 #miFoto{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 
 #barraLateral{
@@ -26,8 +29,21 @@
     background: #111;
     color: blanchedalmond;
     text-align: center;
+
+}
+
+.list{
+    border-bottom: 1px solid rgba(100, 100, 100, 100);
+    padding: 30px;
+    
 }
 
 #descripcion{
     text-align: center;
+}
+
+#espacio{
+    
+    width: 900px;
+    height: 100%;
 }
