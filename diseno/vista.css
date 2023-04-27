@@ -18,3 +18,17 @@ nav,
         background-color: #0dcaf0;
       }
     }
+
+.row{
+    padding: 30px;
+}
+
+#miFoto{
+    height: 200px;
+    width: 200px;
+}
+
+.tituloSecun{
+    text-align: center;
+    margin-top: 40px;
+}
