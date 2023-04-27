@@ -35,12 +35,27 @@
 .list{
     border-bottom: 1px solid rgba(100, 100, 100, 100);
     padding: 30px;
-    
+    transition: background-color .5s;
 }
 
 #boton1:hover{
+
     color: red;
+    background-color: blue;
 }
+
+#boton2:hover{
+
+    color: red;
+    background-color: blue;
+}
+
+#boton3:hover{
+
+    color: red;
+    background-color: blue;
+}
+
 
 #descripcion{
     text-align: center;

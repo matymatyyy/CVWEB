@@ -1,6 +1,7 @@
 function iniciar(){
     const espacio= document.getElementById("espacio")
-    espacio.style.display="hidden"
+    const proyecto= document.getElementById("Proyectos")
+    proyecto.style.display="none"
 
     const botones= document.getElementsByClassName("boton1")
     document.addEventListener("click", hola)
