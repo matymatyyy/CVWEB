@@ -30,5 +30,10 @@ nav,
 
 .tituloSecun{
     text-align: center;
-    margin-top: 40px;
+    margin: revert;
+}
+
+.tbody, td, tfoot, th, thead, tr{
+    border-block-color: inherit;
+    border: groove;
 }

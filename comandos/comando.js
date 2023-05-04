@@ -3,6 +3,10 @@ function iniciar(){
     const botones1=document.getElementById("boton1")
     const botones2=document.getElementById("boton2")
     const botones3=document.getElementById("boton3")
+    const ini=document.getElementById("Inicio")
+    const pro=document.getElementById("Proyectos")
+    const exper=document.getElementById("Experiencia")
+    const sobre=document.getElementById("SobreMi")
     var nombreBoton
 
 
@@ -11,21 +15,36 @@ function iniciar(){
     botones2.addEventListener("click", joga)
     botones3.addEventListener("click", joga)
 
+    pro.style.display="none"
+    exper.style.display="none"
+    sobre.style.display="none"
 
     function joga(){
         nombreBoton=event.target.textContent;
         console.log(nombreBoton)
         if(nombreBoton=="Inicio"){
-            alert("ini")
+            ini.style.display="flex"
+            pro.style.display="none"
+            exper.style.display="none"
+            sobre.style.display="none"
         }
         else if(nombreBoton=="Proyectos"){
-            alert("pro")
+            ini.style.display="none"
+            exper.style.display="none"
+            sobre.style.display="none"
+            pro.style.display="flex"
         }
         else if(nombreBoton=="Experiencia"){
-            alert("xp")
+            ini.style.display="none"
+            exper.style.display="flex"
+            sobre.style.display="none"
+            pro.style.display="none"
         }
-        else if(nombreBoton=="Contactos"){
-            alert("contac")
+        else if(nombreBoton=="Sobre mi"){
+            ini.style.display="none"
+            exper.style.display="none"
+            sobre.style.display="flex"
+            pro.style.display="none"
         }
         else{
             console.log(":C")
