@@ -42,3 +42,8 @@ nav,
     border-block-color: inherit;
     border: groove;
 }
+
+#moke{
+  width: auto;
+  height: 220px;
+}
