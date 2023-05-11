@@ -44,7 +44,36 @@ nav,
 }
 
 #moke{
-  width: auto;
+  width: 332px;
   height: 220px;
 }
 
+.btn-warning{
+  margin: 5px;
+}
+
+.btn-danger{
+  margin: 5px;
+}
+
+.btn-primary{
+  margin: 5px;
+}
+
+.progress{
+  margin-top: 10px;
+}
+
+#pro2{
+  width: 332px;
+  height: 220px;
+}
+
+#ramfot{
+  margin: 20px;
+}
+
+#caja{
+  margin-top: 5px;
+  border: solid;
+}
