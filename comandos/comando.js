@@ -9,7 +9,6 @@ function iniciar(){
     const sobre=document.getElementById("SobreMi")
     const close=document.querySelector(".offcanvas")
     const butonNav=document.querySelector(".navbar-toggler")
-    
     var nombreBoton
 
     botones.addEventListener("click", joga)
