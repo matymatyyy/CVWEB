@@ -78,3 +78,15 @@ nav,
   margin-top: 5px;
   border: solid;
 }
+
+#h1sobre{
+  text-align: center;
+}
+
+.linea{
+  border-bottom: 2px solid #000000;
+}
+
+#fotsobre{
+  padding: 10px;
+}
