@@ -44,7 +44,7 @@ function iniciar(){
             pro.style.display="none"
             ocultar()
         }
-        else if(nombreBoton=="Sobre mi"){
+        else if(nombreBoton=="Educacion"){
             ini.style.display="none"
             exper.style.display="none"
             sobre.style.display="flex"
