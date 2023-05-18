@@ -1,9 +1,11 @@
 body{
   background: lightgray;
+  
 }
 nav,
     .offcanvas {
       background-color: #1e293b;
+      
     }
     .navbar-toggler {
       border: none;
@@ -15,11 +17,13 @@ nav,
 
     .navbar-nav > li:hover {
         background-color: #0dcaf0;
-        
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
     }
     @media (max-width: 768px) {
       .navbar-nav > li:hover {
         background-color: #0dcaf0;
+        
       }
     }
 
