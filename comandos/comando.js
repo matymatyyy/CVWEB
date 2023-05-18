@@ -9,13 +9,13 @@ function iniciar(){
     const sobre=document.getElementById("SobreMi")
     const close=document.querySelector(".offcanvas")
     const butonNav=document.querySelector(".navbar-toggler")
+    const botonclose=document.getElementById("close")
     var nombreBoton
 
     botones.addEventListener("click", joga)
     botones1.addEventListener("click", joga)
     botones2.addEventListener("click", joga)
     botones3.addEventListener("click", joga)
-    butonNav.addEventListener("click", fondo)
 
     pro.style.display="none"
     exper.style.display="none"
@@ -57,18 +57,10 @@ function iniciar(){
     }
 
     function ocultar(){
-        
-        close.style="transform: translateX(-100%);"
-        const close2=document.querySelector(".offcanvas-backdrop.show")
-        close2.style.opacity="0"
+        botonclose.click()
 
     }
     
-    function fondo(){
-        close.style="transform: none;"
-        const close2=document.querySelector(".offcanvas-backdrop.show")
-        close2.style.opacity="0.5"
-    }
 }
 
 window.addEventListener("load", iniciar)
