@@ -57,6 +57,7 @@ function iniciar(){
     }
 
     function ocultar(){
+        
         close.style="transform: translateX(-100%);"
         const close2=document.querySelector(".offcanvas-backdrop.show")
         close2.style.opacity="0"
