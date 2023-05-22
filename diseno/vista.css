@@ -53,6 +53,11 @@ nav,
   height: 220px;
 }
 
+#moke:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
 .btn-warning{
   margin: 5px;
 }
@@ -72,6 +77,11 @@ nav,
 #pro2{
   width: 332px;
   height: 220px;
+}
+
+#pro2:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
 
 #ramfot{
@@ -94,9 +104,20 @@ nav,
 
 #fotsobre{
   padding: 10px;
+  
+}
+
+#fotsobre:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
 
 #iconos:hover{
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
+li{
+  cursor: pointer;
+}
+
